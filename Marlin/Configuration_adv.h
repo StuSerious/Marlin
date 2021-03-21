@@ -3231,11 +3231,11 @@
   #define USER_SCRIPT_AUDIBLE_FEEDBACK
   //#define USER_SCRIPT_RETURN  // Return to status screen after a script
 
-  #define USER_DESC_1 "Load"
-  #define USER_GCODE_1 "G1 E-200 F100"
+  #define USER_DESC_1 "Scopalo Dentro"
+  #define USER_GCODE_1 "G92 E0 \n G90 \n G1 E350 F300 \n G1 E50 F100 \n G92 E0 \n G91"
 
-  #define USER_DESC_2 "UnLoad"
-  #define USER_GCODE_2 "G1 E200 F200"
+  #define USER_DESC_2 "Escilo Fuori"
+  #define USER_GCODE_2 "G92 E0 \n G90 \n G1 E-400 F200 \n G92 E0 \n G91"
 #endif
 
 /**
